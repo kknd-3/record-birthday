@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>生日祝福</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: sans-serif;
+            background-color: #f0f8ff;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        h1 {
+            color: #ff6b88;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        audio {
+            width: 100%;
+            max-width: 400px;
+            outline: none;
+        }
+        .hint {
+            margin-top: 20px;
+            color: #666;
+            font-size: 14px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎂 请收听您的生日祝福 🎂</h1>
+    <audio controls autoplay>
+        <!-- 链接指向您刚上传的新文件 -->
+        <source src="./birthday_wish.mp3" type="audio/mpeg">
+        您的浏览器不支持音频播放功能。
+    </audio>
+    <p class="hint">如果未自动播放，请点击上方的播放按钮 ▶️</p >
+</body>
+</html>
